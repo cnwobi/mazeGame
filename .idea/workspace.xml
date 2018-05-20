@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mazegame/control/AttackState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/BuyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/BuyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MovementState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MovementState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/SellCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/SellCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/UnequipCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/UnequipCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/BuyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/BuyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Player.java" afterDir="false" />
-    </list>
+    <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +16,8 @@
         <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="99" column="44" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+              <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
               <folding>
-                <element signature="e#2539#2540#0" expanded="true" />
-                <element signature="e#2598#2599#0" expanded="true" />
                 <element signature="e#2638#2639#0" expanded="true" />
               </folding>
             </state>
@@ -44,8 +27,8 @@
       <file leaf-file-name="UnequipCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="136">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,11 +37,8 @@
         <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Location.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding>
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#2449#2450#0" expanded="true" />
                 <element signature="e#2482#2483#0" expanded="true" />
                 <element signature="e#2684#2685#0" expanded="true" />
                 <element signature="e#2726#2727#0" expanded="true" />
@@ -89,24 +69,12 @@
         <entry file="file://$PROJECT_DIR$/src/mazegame/HardCodedData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttackState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +156,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -359,10 +327,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30384000" />
+    <option name="totallyTimeSpent" value="30390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -379,7 +347,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -387,7 +355,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39911634" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39911634" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Designer" order="2" />
@@ -481,10 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,8 +467,6 @@
         <state relative-caret-position="543">
           <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
           <folding>
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
             <element signature="e#2638#2639#0" expanded="true" />
           </folding>
         </state>
@@ -589,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,12 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,11 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#211#229#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,18 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,10 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="21" column="8" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,10 +777,8 @@
     <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="99" column="44" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
           <folding>
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
             <element signature="e#2638#2639#0" expanded="true" />
           </folding>
         </state>
@@ -859,19 +786,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="136">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#2449#2450#0" expanded="true" />
             <element signature="e#2482#2483#0" expanded="true" />
             <element signature="e#2684#2685#0" expanded="true" />
             <element signature="e#2726#2727#0" expanded="true" />
@@ -906,7 +830,7 @@
     <entry file="file://$PROJECT_DIR$/src/mazegame/HardCodedData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#641#642#0" expanded="true" />
             <element signature="e#662#663#0" expanded="true" />
