@@ -57,7 +57,7 @@ public class HardCodedData implements IMazeData {
 
         //add location characters
          startUp.addNonPlayerCharacters("chukas",new NonPlayerCharacter("Chuka",20,21,10,false));
-
+drawBridge.addNonPlayerCharacters("philip",new NonPlayerCharacter("philip",20,21,10,true));
          // add location items
         startUp.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
         startUp.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));

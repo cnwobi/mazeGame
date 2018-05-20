@@ -96,4 +96,12 @@ public int getWeightLimit() {
             return "You cannot equip more than one weapon at a time....unequip [" + equipped.get(0).getLabel() + "] before equipping ["+weapon.getLabel()+"]";
 
    }
+
+    public ArrayList<Weapon> getEquipped() {
+        return equipped;
+    }
+
+    public void setEquipped(ArrayList<Weapon> equipped) {
+        this.equipped = equipped;
+    }
 }

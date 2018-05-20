@@ -6,7 +6,7 @@ public class Location {
 	private HashMap exits;
 	private String description;
 	private String label;
-	private HashMap nonPlayerCharacters;
+	private HashMap<String,NonPlayerCharacter> nonPlayerCharacters;
 	private HashMap weapons;
 	private HashMap inventory;
 
@@ -87,6 +87,10 @@ public class Location {
 			stringBuilder.append("[" + characterName.toString() + "] ");
 		}
 		return stringBuilder.toString();
+	}
+
+	public HashMap<String,NonPlayerCharacter> getNonPlayerCharacters() {
+		return nonPlayerCharacters;
 	}
 
 	public String availableItems(){
