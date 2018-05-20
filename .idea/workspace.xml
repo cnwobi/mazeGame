@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mazegame/control/EquipCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mazegame/utility/WeaponTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/GetCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/GetCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/ListCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/ListCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/NonPlayerCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/NonPlayerCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/GetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/GetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/ListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/ListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java" afterDir="false" />
-    </list>
+    <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +15,21 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="543">
               <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnequipCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +73,8 @@
       <file leaf-file-name="EquipCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mazegame/control/EquipCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,27 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-              <folding>
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -164,9 +139,9 @@
         <option value="$PROJECT_DIR$/src/mazegame/utility/WeaponTable.java" />
         <option value="$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java" />
         <option value="$PROJECT_DIR$/src/mazegame/HardCodedData.java" />
-        <option value="$PROJECT_DIR$/src/mazegame/control/EquipCommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/MovementState.java" />
         <option value="$PROJECT_DIR$/src/mazegame/entity/Player.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/EquipCommand.java" />
       </list>
     </option>
   </component>
@@ -176,7 +151,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -342,15 +317,15 @@
       <option name="presentableId" value="Default" />
       <updated>1526594850786</updated>
       <workItem from="1526594854162" duration="4336000" />
-      <workItem from="1526789196712" duration="16064000" />
+      <workItem from="1526789196712" duration="16718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20400000" />
+    <option name="totallyTimeSpent" value="21054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -527,17 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,10 +759,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/EquipCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -807,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="543">
           <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
