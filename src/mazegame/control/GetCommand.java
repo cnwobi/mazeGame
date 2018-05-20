@@ -1,5 +1,6 @@
 package mazegame.control;
 
+import mazegame.entity.Collectible;
 import mazegame.entity.Exit;
 import mazegame.entity.Item;
 import mazegame.entity.Player;
@@ -23,7 +24,15 @@ public class GetCommand implements Command{
        if(desiredItem.getWeight() > player.getWeightLimit()){
            return new CommandResponse("Cannot carry item...Weight limit reached");
        }
-
+       if (desiredItem instanceof Collectible){
+           if(player.getLifePoints()<20){
+               player.setLifePoints(player.getLifePoints()+((Collectible) desiredItem).getRestoreLifepoint());
+               int restorationPoint= ((Collectible) desiredItem).getRestoreLifepoint();
+               player.getCurrentLocation().removeItem(itemLabel);
+               return new CommandResponse("Life points restored by +"+restorationPoint);
+           }
+           return new CommandResponse("Life points full already!");
+       }
        player.setWeightLimit(((int)desiredItem.getWeight()));
        player.getPlayerInventory().addItem(desiredItem);
        player.getCurrentLocation().removeItem(itemLabel);

@@ -7,6 +7,10 @@ public abstract class Item {
 	private double weight;
 	private String description;
 
+	public Item(String label) {
+		this.label = label;
+	}
+
 	public Item (String label, int price, double weight, String description)
 	{
 		this.label = label;

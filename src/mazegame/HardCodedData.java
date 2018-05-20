@@ -62,6 +62,7 @@ drawBridge.addNonPlayerCharacters("philip",new NonPlayerCharacter("philip",20,21
         startUp.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
         startUp.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));
         startUp.addItems("dagger",(Item)weapons.getWeapon("dagger"));
+        startUp.addItems("life",new Collectible("life",10));
         blackSmith.addItems("falchion", (Item) weapons.getWeapon("falchion"));
         blackSmith.addItems("nunchaku",(Item) weapons.getWeapon("nunchaku"));
         blackSmith.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));

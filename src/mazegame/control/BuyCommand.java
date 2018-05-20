@@ -13,7 +13,7 @@ public class BuyCommand implements Command {
         if(desiredItem==null){
             return new CommandResponse("This item does not exist in this location....type in look to view available items");
         }
-        if (!thePlayer.getPlayerInventory().getGold().Subtract(desiredItem.getPrice()))
+        if (thePlayer.getPlayerInventory().getGold().getTotal() < desiredItem.getPrice())
         {
             return new CommandResponse("Cannot purchase item, you are low on gold points");
         }
