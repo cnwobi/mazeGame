@@ -55,7 +55,8 @@ public class HardCodedData implements IMazeData {
          startUp.addNonPlayerCharacters("chukas",new NonPlayerCharacter("Chuka",20,21,10,false));
 
          // add location items
-        startUp.addItems("sword", new Weapon("Sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
+        startUp.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
+        startUp.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));
 
 
      alliedBase.addExit("northwest",new Exit("you see a drawbridge leading to Gregor's Castle...guarded by his minions to the northwest",drawBridge));

@@ -54,7 +54,11 @@ public class Location {
 	public Item getItem(String label){
 		return (Item) inventory.get(label);
 	}
-
+    public void removeItem(String label){
+		if (inventory.containsKey(label)){
+			inventory.remove(label);
+		}
+	}
 	public String getDescription() {
 		return description;
 	}
@@ -67,6 +71,9 @@ public class Location {
 	public void setLabel(String label) {
 		this.label = label;
 	}
+
+
+
 	public String availableExits() {
 		StringBuilder returnMsg = new StringBuilder();
 		for (Object label: this.exits.keySet()) {
@@ -84,8 +91,8 @@ public class Location {
 
 	public String availableItems(){
 		StringBuilder stringBuilder = new StringBuilder();
-		for (Object weapon: this.inventory.keySet()){
-			stringBuilder.append("[" + weapon.toString() + "] ");
+		for (Object item: this.inventory.keySet()){
+			stringBuilder.append("[" + item.toString() + "] ");
 		}
 		return stringBuilder.toString();
 	}

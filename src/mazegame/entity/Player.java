@@ -24,12 +24,12 @@ public class Player extends Character {
 	   super.setStrength(strength);
 	   super.setAgility(agility);
 	   super.setLifePoints(lifepoints);
-
-       weightLimit = weightModifier.getModifier(super.getStrength());
+       weightLimit = weightModifier.getModifier(super.getStrength()); //use weight modifier to get weight limit accoording to character strength
         playerInventory = new Inventory();
         playerInventory.getGold().Add(150);
         weightLimit -=playerInventory.getGold().getWeight();
 	}
+
 
 	public static Player getInstance(String name,int strength,int agility, int lifepoints){
         if(instance== null)
@@ -37,8 +37,7 @@ public class Player extends Character {
         return instance;
 
     }
-
-    public int getWeightLimit() {
+public int getWeightLimit() {
 
         return weightLimit;
     }
