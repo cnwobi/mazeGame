@@ -46,7 +46,7 @@ public Item getItem (String itemName){
     return null;
 
 }
-    private String printItemList() {
+    public String printItemList() {
         if (itemList.size() == 0)
             return "No items here";
         StringBuilder returnMsg = new StringBuilder();

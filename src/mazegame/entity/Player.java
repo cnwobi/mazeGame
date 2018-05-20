@@ -2,16 +2,18 @@ package mazegame.entity;
 
 import mazegame.utility.WeightLimit;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 
 public class Player extends Character {
 	
 	private Location currentLocation;
 	private static Player instance = null;
-	private Money m_money;
+
 	private int weightLimit;
 	private Inventory playerInventory;
     private WeightLimit weightModifier = WeightLimit.getInstance();
+    private ArrayList<Weapon> equipped;
+
 
     private Player()
     {
@@ -24,12 +26,13 @@ public class Player extends Character {
 	   super.setStrength(strength);
 	   super.setAgility(agility);
 	   super.setLifePoints(lifepoints);
-
-       weightLimit = weightModifier.getModifier(super.getStrength());
+       weightLimit = weightModifier.getModifier(super.getStrength()); //use weight modifier to get weight limit according to character strength
         playerInventory = new Inventory();
         playerInventory.getGold().Add(150);
         weightLimit -=playerInventory.getGold().getWeight();
+        equipped = new ArrayList<>();
 	}
+
 
 	public static Player getInstance(String name,int strength,int agility, int lifepoints){
         if(instance== null)
@@ -37,8 +40,7 @@ public class Player extends Character {
         return instance;
 
     }
-
-    public int getWeightLimit() {
+public int getWeightLimit() {
 
         return weightLimit;
     }
@@ -81,4 +83,18 @@ public class Player extends Character {
     public int getAgility() {
         return super.getAgility();
     }
+
+   public String equipWeapon(Weapon weapon){
+
+        if (equipped.size() ==0){
+            equipped.add(weapon);
+            return "You successfully equipped [" +equipped.get(0).getLabel() + "]";
+        }
+        else if (equipped.get(0) == weapon){
+            return "["+equipped.get(0).getLabel() +"] is already equipped";
+        }
+       else
+            return "You cannot equip more than one weapon at a time....unequip [" + equipped.get(0).getLabel() + "] before equipping ["+weapon.getLabel()+"]";
+
+   }
 }

@@ -3,7 +3,7 @@ package mazegame.entity;
 public class NonPlayerCharacter extends Character {
 	private Boolean hostile;
 	private String conversation;
-
+	private Inventory inventory;
 
 
     public NonPlayerCharacter()
@@ -17,6 +17,7 @@ public class NonPlayerCharacter extends Character {
         super.setStrength(strength);
         super.setAgility(agility);
         super.setLifePoints(lifepoints);
+        inventory = new Inventory();
 
     }
     public String getName(){
