@@ -13,7 +13,7 @@ public class DiceRoller {
 		d6 = new Dice (6);
 	}
 	
-	public static DiceRoller GetInstance () {
+	public static DiceRoller getInstance () {
 		return instance;
 	}
 	

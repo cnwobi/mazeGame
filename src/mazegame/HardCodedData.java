@@ -4,18 +4,22 @@ import mazegame.boundary.IMazeData;
 import mazegame.entity.*;
 import mazegame.utility.AgilityTable;
 import mazegame.utility.StrengthTable;
+import mazegame.utility.WeaponTable;
 import mazegame.utility.WeightLimit;
 
 public class HardCodedData implements IMazeData {
 	private Location startUp;
 	private WeightLimit weightLimit = WeightLimit.getInstance();
+	private WeaponTable weapons = WeaponTable.getInstance();
 	
 	public HardCodedData()
 	{
-		createLocations();
+
 		populateAgilityTable();
 		populateWeightLimitTable();
 		populateStrengthTable();
+		populateWeaponsTable();
+        createLocations();
 	}
 	
 	public Location getStartingLocation()
@@ -57,6 +61,8 @@ public class HardCodedData implements IMazeData {
          // add location items
         startUp.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
         startUp.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));
+        startUp.addItems("dagger",(Item)weapons.getWeapon("dagger"));
+        System.out.println("******Dagger******" + weapons.getWeapon("Dagger"));
 
 
      alliedBase.addExit("northwest",new Exit("you see a drawbridge leading to Gregor's Castle...guarded by his minions to the northwest",drawBridge));
@@ -174,6 +180,8 @@ public class HardCodedData implements IMazeData {
 
     private void populateWeightLimitTable()
     {
+        Dice dice = new Dice(20);
+        System.out.println("Dice roll *****************"+dice.roll());
         WeightLimit weightModifier = WeightLimit.getInstance();
         weightModifier.setModifier(1, 6);
         weightModifier.setModifier(2, 13);
@@ -221,5 +229,12 @@ public class HardCodedData implements IMazeData {
         weightModifier.setModifier(44, 2500);
         weightModifier.setModifier(45, 2633);
         weightModifier.setModifier(46, 2713);
+    }
+
+    public void populateWeaponsTable(){
+        WeaponTable weaponTable = WeaponTable.getInstance();
+        weaponTable.setWeapon("dagger",new Weapon("dagger",1,2,"a short knife with a pointed and edged blade, used as a weapon."));
+        weaponTable.setWeapon("nunchaku",new Weapon("nunchaku",1,2,"I dont know"));
+        weaponTable.setWeapon("greatClub",new Weapon("greatClub",2,10,"blank"));
     }
 }

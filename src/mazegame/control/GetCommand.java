@@ -23,7 +23,7 @@ public class GetCommand implements Command{
        if(desiredItem.getWeight() > player.getWeightLimit()){
            return new CommandResponse("Cannot carry item...Weight limit reached");
        }
-       System.out.println(desiredItem.getWeight() +" "+player.getWeightLimit());
+
        player.setWeightLimit(((int)desiredItem.getWeight()));
        player.getPlayerInventory().addItem(desiredItem);
        player.getCurrentLocation().removeItem(itemLabel);

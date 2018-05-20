@@ -10,11 +10,11 @@ public class ListCommand implements Command{
         }
         if (userInput.getArguments() .contains("location"))
         {
-            return new CommandResponse(player.getCurrentLocation().availableItems());
+            return new CommandResponse("Current Location("+player.getCurrentLocation().getLabel()+") Inventory ===> " +player.getCurrentLocation().availableItems());
         }
         if(userInput.getArguments() .contains("player"))
         {
-            return new CommandResponse( player.getPlayerInventory().printItemList());
+            return new CommandResponse( "Player inventory ==> "+ player.getPlayerInventory().printItemList());
         }
 
         return new CommandResponse( "Didn't find that to list");
