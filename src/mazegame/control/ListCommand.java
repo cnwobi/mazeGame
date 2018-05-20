@@ -14,7 +14,7 @@ public class ListCommand implements Command{
         }
         if(userInput.getArguments() .contains("player"))
         {
-            return new CommandResponse( "Player inventory ==> "+ player.getPlayerInventory().printItemList());
+            return new CommandResponse( "Player inventory ==> "+ player.getPlayerInventory().printItemList()+"\nAvailable Money ==> "+player.getPlayerInventory().getGold().toString());
         }
 
         return new CommandResponse( "Didn't find that to list");

@@ -62,7 +62,11 @@ public class HardCodedData implements IMazeData {
         startUp.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
         startUp.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));
         startUp.addItems("dagger",(Item)weapons.getWeapon("dagger"));
-        System.out.println("******Dagger******" + weapons.getWeapon("Dagger"));
+        blackSmith.addItems("falchion", (Item) weapons.getWeapon("falchion"));
+        blackSmith.addItems("nunchaku",(Item) weapons.getWeapon("nunchaku"));
+        blackSmith.addItems("sword-bastard", new Weapon("sword-bastard",1000,390,"a  large sword designed to be used primarily with two hands"));
+        blackSmith.addItems("battleaxe",new Weapon("battleaxe",10,7,"a large broad-bladed axe used in ancient warfare."));
+
 
 
      alliedBase.addExit("northwest",new Exit("you see a drawbridge leading to Gregor's Castle...guarded by his minions to the northwest",drawBridge));
@@ -233,8 +237,9 @@ public class HardCodedData implements IMazeData {
 
     public void populateWeaponsTable(){
         WeaponTable weaponTable = WeaponTable.getInstance();
-        weaponTable.setWeapon("dagger",new Weapon("dagger",1,2,"a short knife with a pointed and edged blade, used as a weapon."));
+        weaponTable.setWeapon("dagger",new Weapon("dagger",170,2,"a short knife with a pointed and edged blade, used as a weapon."));
         weaponTable.setWeapon("nunchaku",new Weapon("nunchaku",1,2,"I dont know"));
         weaponTable.setWeapon("greatClub",new Weapon("greatClub",2,10,"blank"));
+        weaponTable.setWeapon("falchion",new Weapon("falchion",75,15,"a one-handed, single-edged sword of European origin, whose design is reminiscent of the Chinese dadao, and modern machete. "));
     }
 }

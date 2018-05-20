@@ -1,21 +1,21 @@
 package mazegame.entity;
 
 public class Money {
-	 private int total;
+	 private double total;
 
      public Money() {
          total = 0;
      }
 
-     public Money(int total) {
+     public Money(double total) {
          this.total = total;
      }
 
-     public void Add(int amount) {
+     public void Add(double amount) {
          total += amount;
      }
 
-     public boolean Subtract(int amount) {
+     public boolean Subtract(double amount) {
          if (amount > total)
              return false;
          total -= amount;
@@ -23,7 +23,7 @@ public class Money {
      }
 
      public double getWeight() {
-         return (double)total/100;
+         return total/100;
      }
 
      public String toString() {
@@ -34,7 +34,7 @@ public class Money {
          return "There are " + total + " gold pieces";
      }
 
-    public int getTotal() {
+    public double getTotal() {
         return total;
     }
 }

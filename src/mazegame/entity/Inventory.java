@@ -2,7 +2,7 @@ package mazegame.entity;
 
 import java.util.HashMap;
 
-public class Inventory {
+    public class Inventory {
 	private Money gold;
     private HashMap<String, Item> itemList;
 
@@ -12,7 +12,7 @@ public class Inventory {
     }
 
 
-    public void addMoney(int goldPieces) {
+    public void addMoney(double goldPieces) {
         gold.Add(goldPieces);
     }
 
@@ -77,5 +77,8 @@ public Item getItem (String itemName){
     	}
     	
     }
+        public boolean containsItem(String itemLabel) {
+            return itemList.containsKey(itemLabel);
+        }
 	
 }

@@ -8,7 +8,6 @@ public class Player extends Character {
 	
 	private Location currentLocation;
 	private static Player instance = null;
-
 	private int weightLimit;
 	private Inventory playerInventory;
     private WeightLimit weightModifier = WeightLimit.getInstance();
