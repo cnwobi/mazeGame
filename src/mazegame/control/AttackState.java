@@ -1,6 +1,5 @@
 package mazegame.control;
 
-import mazegame.entity.Blacksmith;
 import mazegame.entity.NonPlayerCharacter;
 import mazegame.entity.Player;
 
@@ -14,7 +13,7 @@ public class AttackState extends CommerceState {
         this.getAvailableCommands().put("attack", new AttackCommand());
         this.getAvailableCommands().put("get", new GetCommand());
         this.getAvailableCommands().put("drop", new DropCommand());
-        this.getAvailableCommands().put("list",new ListCommand());
+        this.getAvailableCommands().put("inv",new InvCommand());
         this.getAvailableCommands().put("equip",new EquipCommand());
         this.getAvailableCommands().put("unequip",new UnequipCommand());
 

@@ -2,11 +2,11 @@ package mazegame.control;
 
 import mazegame.entity.Player;
 
-public class ListCommand implements Command{
+public class InvCommand implements Command{
     @Override
     public CommandResponse execute(ParsedInput userInput, Player player) {
         if (userInput.getArguments().size() == 0) {
-            return new CommandResponse ("If you want to get item you need to tell me what.\n****Enter [list location] ... to view location items\n****Enter [list player]... to view items in player inventory");
+            return new CommandResponse ("If you want to get me which inventory you need to tell me what.\n****Enter [inv location] ... to view location items\n****Enter [inv player]... to view items in player inventory");
         }
         if (userInput.getArguments() .contains("location"))
         {

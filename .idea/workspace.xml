@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mazegame/entity/Collectible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/HardCodedData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/HardCodedData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/BuyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/BuyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/DungeonMaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/DungeonMaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/GetCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/GetCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/HardCodedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/BuyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/BuyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/control/GetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/GetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/AttackCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/AttackCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MoveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MoveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MovementState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/MovementState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/NonPlayerCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/NonPlayerCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/control/AttackCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/AttackCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/control/AttackState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/AttackState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/control/ListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/InvCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/control/MoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/MoveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/MovementState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MazeGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/MazeGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+            <state relative-caret-position="1057">
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="44" />
               <folding>
                 <element signature="e#2598#2599#0" expanded="true" />
                 <element signature="e#2638#2639#0" expanded="true" />
@@ -37,11 +48,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuyCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/control/BuyCommand.java">
+      <file leaf-file-name="MoveCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/MoveCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+            <state relative-caret-position="357">
+              <caret line="23" column="108" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovementState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/MovementState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommerceState.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/CommerceState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/InvCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="173" selection-start-line="8" selection-start-column="173" selection-end-line="8" selection-end-column="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttackState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,53 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collectible.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Collectible.java">
+      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Weapon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Item.java">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiceRoller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#419#428#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -103,57 +117,14 @@
       <file leaf-file-name="HardCodedData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mazegame/HardCodedData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+            <state relative-caret-position="952">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="e#641#642#0" expanded="true" />
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#747#748#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DungeonMaster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/control/DungeonMaster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-              <folding>
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-              <folding>
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mazegame/control/GetCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -177,8 +148,6 @@
         <option value="$PROJECT_DIR$/src/mazegame/control/DropItemCommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/DropICommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/DropCommand.java" />
-        <option value="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" />
-        <option value="$PROJECT_DIR$/src/mazegame/entity/Weapon.java" />
         <option value="$PROJECT_DIR$/src/mazegame/utility/WeaponTable.java" />
         <option value="$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/EquipCommand.java" />
@@ -189,14 +158,21 @@
         <option value="$PROJECT_DIR$/src/mazegame/entity/Player.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/entity/Location.java" />
-        <option value="$PROJECT_DIR$/src/mazegame/control/AttackState.java" />
-        <option value="$PROJECT_DIR$/src/mazegame/control/MovementState.java" />
         <option value="$PROJECT_DIR$/src/mazegame/entity/Item.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/BuyCommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/HardCodedData.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/GetCommand.java" />
         <option value="$PROJECT_DIR$/src/mazegame/control/DungeonMaster.java" />
         <option value="$PROJECT_DIR$/src/mazegame/entity/Collectible.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/MoveCommand.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/entity/Character.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/utility/NonPlayerCharacterCollection.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/AttackCommand.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/entity/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/InvCommand.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/AttackState.java" />
+        <option value="$PROJECT_DIR$/src/mazegame/control/MovementState.java" />
       </list>
     </option>
   </component>
@@ -206,7 +182,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -377,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35079000" />
+    <option name="totallyTimeSpent" value="44714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -388,15 +364,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3298969" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21354933" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,88 +422,46 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/GetCommand.java</url>
+          <url />
           <line>12</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/GetCommand.java</url>
+          <url />
           <line>17</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/GetCommand.java</url>
+          <url />
           <line>16</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/BuyCommand.java</url>
+          <url />
           <line>15</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/entity/Money.java</url>
+          <url />
           <line>18</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/entity/Money.java</url>
+          <url />
           <line>20</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MovementState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/UnequipCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/EquipCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding>
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MazeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/MazeGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -606,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/CommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -622,13 +549,6 @@
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -646,20 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MazeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/LookCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -671,35 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/ListCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -769,37 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/CommerceState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MoveCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MovementState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Armor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -824,79 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-          <folding>
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/HardCodedData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/GetCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/control/DungeonMaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#419#428#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,12 +696,436 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="-238">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/utility/NonPlayerCharacterCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/NonPlayerCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/utility/DiceRoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#419#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mazegame">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mazegame</OriginalElement>
+          <nodes>
+            <node x="177.0" y="79.0">mazegame.HardCodedData</node>
+            <node x="0.0" y="79.0">mazegame.SimpleConsoleClient</node>
+            <node x="0.0" y="153.0">mazegame.control</node>
+            <node x="97.0" y="0.0">mazegame.boundary</node>
+            <node x="161.0" y="153.0">mazegame.entity</node>
+            <node x="0.0" y="227.0">mazegame.utility</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mazegame.SimpleConsoleClient" target="mazegame.boundary">
+              <point x="0.0" y="-14.5" />
+              <point x="78.5" y="54.0" />
+              <point x="129.25" y="54.0" />
+              <point x="-32.25" y="14.5" />
+            </edge>
+            <edge source="mazegame.HardCodedData" target="mazegame.boundary">
+              <point x="0.0" y="-14.5" />
+              <point x="244.5" y="54.0" />
+              <point x="193.75" y="54.0" />
+              <point x="32.25" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6268115942028986" x="-348.9364161849711" y="372.8901734104046" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mazegame.control">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mazegame.control</OriginalElement>
+          <nodes>
+            <node x="0.0" y="425.0">mazegame.control.CommandResponse</node>
+            <node x="911.0" y="351.0">mazegame.control.DropCommand</node>
+            <node x="850.0" y="232.0">mazegame.control.Command</node>
+            <node x="1654.0" y="351.0">mazegame.control.SellCommand</node>
+            <node x="168.0" y="351.0">mazegame.control.MoveCommand</node>
+            <node x="388.0" y="425.0">mazegame.control.DungeonMaster</node>
+            <node x="1201.0" y="351.0">mazegame.control.GetCommand</node>
+            <node x="565.0" y="425.0">mazegame.control.ParsedInput</node>
+            <node x="1061.0" y="351.0">mazegame.control.ListCommand</node>
+            <node x="1342.0" y="351.0">mazegame.control.UnlockCommand</node>
+            <node x="1501.0" y="351.0">mazegame.control.EquipCommand</node>
+            <node x="763.0" y="351.0">mazegame.control.LookCommand</node>
+            <node x="873.0" y="425.0">mazegame.control.Parser</node>
+            <node x="320.0" y="351.0">mazegame.control.BuyCommand</node>
+            <node x="0.0" y="79.0">mazegame.control.CommerceState</node>
+            <node x="462.0" y="351.0">mazegame.control.AttackCommand</node>
+            <node x="12.0" y="158.0">mazegame.control.AttackState</node>
+            <node x="720.0" y="425.0">mazegame.control.MazeGame</node>
+            <node x="618.0" y="351.0">mazegame.control.QuitCommand</node>
+            <node x="77.0" y="0.0">mazegame.control.CommandState</node>
+            <node x="198.0" y="425.0">mazegame.control.CommandHandler</node>
+            <node x="152.0" y="79.0">mazegame.control.MovementState</node>
+            <node x="0.0" y="351.0">mazegame.control.UnequipCommand</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mazegame.control.DropCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="976.0" y="331.0" />
+              <point x="905.7916666666666" y="331.0" />
+              <point x="4.291666666666629" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.EquipCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="1567.5" y="291.0" />
+              <point x="940.125" y="291.0" />
+              <point x="38.625" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.UnequipCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="74.0" y="281.0" />
+              <point x="854.2916666666666" y="281.0" />
+              <point x="-47.20833333333337" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.LookCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="827.0" y="331.0" />
+              <point x="897.2083333333334" y="331.0" />
+              <point x="-4.291666666666629" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.AttackCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="530.0" y="311.0" />
+              <point x="880.0416666666666" y="311.0" />
+              <point x="-21.45833333333337" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.AttackState" target="mazegame.control.CommerceState">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.QuitCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="680.5" y="321.0" />
+              <point x="888.625" y="321.0" />
+              <point x="-12.875" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.ListCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="1121.0" y="321.0" />
+              <point x="914.375" y="321.0" />
+              <point x="12.875" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.MovementState" target="mazegame.control.CommandState">
+              <point x="0.0" y="-14.5" />
+              <point x="218.0" y="54.0" />
+              <point x="174.5" y="54.0" />
+              <point x="32.5" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.BuyCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="381.0" y="301.0" />
+              <point x="871.4583333333334" y="301.0" />
+              <point x="-30.04166666666663" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.SellCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="1715.0" y="281.0" />
+              <point x="948.7083333333334" y="281.0" />
+              <point x="47.20833333333337" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.UnlockCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="1411.5" y="301.0" />
+              <point x="931.5416666666667" y="301.0" />
+              <point x="30.041666666666742" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.CommerceState" target="mazegame.control.CommandState">
+              <point x="0.0" y="-14.5" />
+              <point x="66.0" y="54.0" />
+              <point x="109.5" y="54.0" />
+              <point x="-32.5" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.GetCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="1261.5" y="311.0" />
+              <point x="922.9583333333334" y="311.0" />
+              <point x="21.45833333333337" y="14.5" />
+            </edge>
+            <edge source="mazegame.control.MoveCommand" target="mazegame.control.Command">
+              <point x="0.0" y="-14.5" />
+              <point x="234.0" y="291.0" />
+              <point x="862.875" y="291.0" />
+              <point x="-38.625" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6197104677060133" x="367.27762803234504" y="225.38634321653188" />
+          <SelectedNodes>
+            <node>mazegame.control.CommandResponse</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mazegame.entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mazegame.entity</OriginalElement>
+          <nodes>
+            <node x="116.5" y="0.0">mazegame.entity.Item</node>
+            <node x="172.0" y="232.0">mazegame.entity.Player</node>
+            <node x="95.0" y="153.0">mazegame.entity.Character</node>
+            <node x="0.0" y="306.0">mazegame.entity.Inventory</node>
+            <node x="270.0" y="306.0">mazegame.entity.Dice</node>
+            <node x="112.0" y="79.0">mazegame.entity.Armor</node>
+            <node x="302.5" y="153.0">mazegame.entity.Location</node>
+            <node x="0.0" y="380.0">mazegame.entity.Exit</node>
+            <node x="213.0" y="79.0">mazegame.entity.Collectible</node>
+            <node x="141.0" y="306.0">mazegame.entity.Money</node>
+            <node x="0.0" y="232.0">mazegame.entity.NonPlayerCharacter</node>
+            <node x="0.0" y="79.0">mazegame.entity.Weapon</node>
+            <node x="297.0" y="232.0">mazegame.entity.Blacksmith</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mazegame.entity.Blacksmith" target="mazegame.entity.Location">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="mazegame.entity.Player" target="mazegame.entity.Character">
+              <point x="0.0" y="-14.5" />
+              <point x="212.0" y="207.0" />
+              <point x="168.5" y="207.0" />
+              <point x="24.5" y="14.5" />
+            </edge>
+            <edge source="mazegame.entity.NonPlayerCharacter" target="mazegame.entity.Character">
+              <point x="0.0" y="-14.5" />
+              <point x="76.0" y="207.0" />
+              <point x="119.5" y="207.0" />
+              <point x="-24.5" y="14.5" />
+            </edge>
+            <edge source="mazegame.entity.Collectible" target="mazegame.entity.Item">
+              <point x="0.0" y="-14.5" />
+              <point x="265.0" y="54.0" />
+              <point x="176.5" y="54.0" />
+              <point x="24.0" y="14.5" />
+            </edge>
+            <edge source="mazegame.entity.Weapon" target="mazegame.entity.Item">
+              <point x="0.0" y="-14.5" />
+              <point x="46.0" y="54.0" />
+              <point x="128.5" y="54.0" />
+              <point x="-24.0" y="14.5" />
+            </edge>
+            <edge source="mazegame.entity.Armor" target="mazegame.entity.Item">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-116.0" y="203.5" />
+          <SelectedNodes>
+            <node>mazegame.entity.Weapon</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mazegame.utility">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mazegame.utility</OriginalElement>
+          <nodes>
+            <node x="0.0" y="148.0">mazegame.utility.AgilityTable</node>
+            <node x="0.0" y="222.0">mazegame.utility.DiceRoller</node>
+            <node x="0.0" y="74.0">mazegame.utility.WeaponTable</node>
+            <node x="167.0" y="74.0">mazegame.utility.StrengthTable</node>
+            <node x="157.0" y="148.0">mazegame.utility.WeightLimit</node>
+            <node x="0.0" y="0.0">mazegame.utility.NonPlayerCharacterCollection</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-172.0" y="124.5" />
+          <SelectedNodes>
+            <node>mazegame.utility.AgilityTable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/DungeonMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MazeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/HardCodedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding>
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="44" />
+          <folding>
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2638#2639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="108" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/InvCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="173" selection-start-line="8" selection-start-column="173" selection-end-line="8" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/AttackState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/MovementState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/control/CommerceState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>

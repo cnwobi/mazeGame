@@ -1,6 +1,7 @@
 package mazegame.control;
 
 import mazegame.entity.Exit;
+import mazegame.entity.NonPlayerCharacter;
 import mazegame.entity.Player;
 
 public class MoveCommand implements Command {
@@ -18,7 +19,12 @@ public class MoveCommand implements Command {
             return new CommandResponse("This exit is locked please...acquire the ITECH 3215 banner to proceed");
         }
         thePlayer.setCurrentLocation(desiredExit.getDestination());
-        return new CommandResponse("You successfully move " + exitLabel + " and find   yourself somewhere else\n\n" + thePlayer.getCurrentLocation().toString());
+       for(NonPlayerCharacter npc: thePlayer.getCurrentLocation().getNonPlayerCharacters().values()){
+            if(npc.getHostile() == true){
+               System.out.println("**** Hostile Characters in location****\n****Attack Command activated****\n");
+            }
+        }
+        return new CommandResponse("You successfully moved " + exitLabel+ " and find   yourself somewhere else\n\n" + thePlayer.getCurrentLocation().toString());
     }
 }
 
