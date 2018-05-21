@@ -7,7 +7,17 @@ import java.util.ArrayList;
 public class Player extends Character {
 	
 	private Location currentLocation;
-	private static Player instance = null;
+	private Location lastLocation;
+
+    public Location getLastLocation() {
+        return lastLocation;
+    }
+
+    public void setLastLocation(Location lastLocation) {
+        this.lastLocation = lastLocation;
+    }
+
+    private static Player instance = null;
 	private int weightLimit;
 	private Inventory playerInventory;
     private WeightLimit weightModifier = WeightLimit.getInstance();
@@ -56,6 +66,7 @@ public int getWeightLimit() {
     }
 
     public void setCurrentLocation(Location currentLocation) {
+        lastLocation = this.currentLocation;
         this.currentLocation = currentLocation;
     }
 

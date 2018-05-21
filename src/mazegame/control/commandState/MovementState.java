@@ -27,7 +27,7 @@ public class MovementState extends CommandState {
      for(NonPlayerCharacter npc: thePlayer.getCurrentLocation().getNonPlayerCharacters().values()){
          // iterate through the characters in a location if a hostile character is present initiate the attack state
          if(npc.getHostile() == true){
-             System.out.println("*****Hostile Character in Location****");
+            /* System.out.println("*****Hostile Character in Location****");*/
              return  new AttackState();
          }
      }
