@@ -416,37 +416,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/commands/GetCommand.java</url>
+          <url />
           <line>11</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/commands/GetCommand.java</url>
+          <url />
           <line>16</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/commands/GetCommand.java</url>
+          <url />
           <line>15</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/control/commands/BuyCommand.java</url>
+          <url />
           <line>15</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/entity/Money.java</url>
+          <url />
           <line>18</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mazegame/entity/Money.java</url>
+          <url />
           <line>20</line>
           <properties />
           <option name="timeStamp" value="27" />
