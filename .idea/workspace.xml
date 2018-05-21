@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e71b13-b61b-4ce5-8c7a-e6065e77fda4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commandState/AttackState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commandState/AttackState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commandState/MovementState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commandState/MovementState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commands/MoveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/control/commands/MoveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeGame/mazegame/entity/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mazegame/control/commandState/AttackState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/commandState/AttackState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mazegame/control/commandState/MovementState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/commandState/MovementState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mazegame/control/commands/MoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mazegame/control/commands/MoveCommand.java" afterDir="false" />
@@ -27,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+            <state relative-caret-position="-777">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="e#241#242#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
@@ -54,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveCommand.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mazegame/control/commands/MoveCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
@@ -340,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50442000" />
+    <option name="totallyTimeSpent" value="50692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1081,19 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mazegame/control/commands/AttackCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1127,6 +1120,19 @@
           <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mazegame/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
