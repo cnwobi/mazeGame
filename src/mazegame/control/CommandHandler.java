@@ -1,11 +1,8 @@
 package mazegame.control;
 
-import mazegame.entity.Player;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Set;
-
+import mazegame.control.commandState.CommandState;
+import mazegame.control.commandState.MovementState;
+import mazegame.control.commands.Command;
 import mazegame.entity.Player;
 
 public class CommandHandler {
