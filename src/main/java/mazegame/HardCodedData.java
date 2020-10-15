@@ -30,6 +30,7 @@ public class HardCodedData implements IMazeData {
 				+ "Despite being on your 8th can of “Guarana Max” your eyes start to close and you drift off to sleep at the keyboard……."
 				+ "\n\n\n\n";
 	}
+	
 
 	private void createLocations () {
 
